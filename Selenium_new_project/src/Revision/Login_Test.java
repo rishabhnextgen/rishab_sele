@@ -13,7 +13,7 @@ public class Login_Test {
 		driver.manage().window().maximize();
 		
 		driver.findElement(By.name("userName")).sendKeys("mercury");
-		driver.findElement(By.name("password")).sendKeys("ravi kumar");
+		driver.findElement(By.name("password")).sendKeys("ranjeet");
 		driver.findElement(By.name("submit")).click();
 		
 		String expect_title="Login: Mercury Tours";
