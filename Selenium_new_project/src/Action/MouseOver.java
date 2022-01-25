@@ -18,7 +18,7 @@ public class MouseOver {
 		   driver.manage().window().maximize();
 		    
 		    driver.findElement(By.xpath("//*[@id=\"txtUsername\"]")).sendKeys("Admin");
-		    driver.findElement(By.xpath("//*[@id=\"txtPassword\"]")).sendKeys("admin123");
+		    driver.findElement(By.xpath("//*[@id=\"txtPassword\"]")).sendKeys("admin123@");
 		    driver.findElement(By.xpath("//*[@id=\"btnLogin\"]")).click();
 
 		   

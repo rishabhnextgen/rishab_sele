@@ -21,7 +21,7 @@ public class Locators_Demo {
 	// How to use link text 
 		//driver.findElement(By.linkText("Printed Chiffon Dress")).click();
 	// partial link text
-		driver.findElement(By.partialLinkText("Chiff Dress")).click();
+		driver.findElement(By.partialLinkText("Chiff dress")).click();
 	
 	}
 	

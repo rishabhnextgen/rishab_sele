@@ -20,7 +20,7 @@ public class Slider {
 	      
 	      
 	      Actions act = new Actions(driver);
-	      act.dragAndDropBy(Slider, 50, 10).build().perform();
+	      act.dragAndDropBy(Slider, 60, 10).build().perform();
 	        
 	
 	
