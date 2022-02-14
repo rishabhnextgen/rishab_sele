@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.Select;
     WebDriver driver= new ChromeDriver();
     driver.get("https://www.moneycontrol.com/fixed-income/calculator/state-bank-of-india-sbi/fixed-deposit-calculator-SBI-BSB001.html");
     driver.manage().window().maximize();
-    FileInputStream file= new FileInputStream   ("C:\\Users\\Rishabh Srivastava\\Desktop\\New folder\\Seleniumcalculator.xlsx");
+    FileInputStream file= new FileInputStream   ("F:\\Selenium Data_Driven\\Calulator.xlsx");
     XSSFWorkbook workbook= new XSSFWorkbook(file);
     XSSFSheet sheet = workbook.getSheet("sheet1");
     

@@ -10,10 +10,10 @@ public class Web_table_1 {
 	
 		
 		
-	System.setProperty("webdriver.chrome.driver","E:\\chromedriver.exe");	
+	System.setProperty("webdriver.chrome.driver","F:\\chromedriver.exe");	
 	
 	WebDriver driver= new ChromeDriver();
-    driver.get("");
+    driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
     
      int rows=driver.findElements(By.xpath("html/body/table/tbody/tr")).size();// it will count no. of rows in the table
     
