@@ -2,7 +2,9 @@ package Sikuli;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
@@ -30,25 +32,25 @@ public class File_upload {
 			 * driver.findElement(By.xpath("//*[@id=\"lastName\"]")).sendKeys("srivastava");
 			 */
 	        
-		   
-		         driver.findElement(By.xpath("//*[@id=\"imagesrc\"]")).click();
-	         
+		         Actions act= new Actions(driver);
+		         WebElement element=driver.findElement(By.xpath("//*[@id=\"imagesrc\"]"));
+	             act.doubleClick(element).build().perform();
 				
-				  String imagespath="F:\\Sikuli_upload\\"; 
+				  String imagespath= "F:\\Sikuli_upload\\"; 
 				  String inputfilepath="F:\\Sikuli_upload\\";
 				  
 				  Screen s= new Screen(); 
-				  Pattern FileInputTextBox= new Pattern(imagespath+"File.PNG"); 
-				  Pattern open= new Pattern(imagespath+"open.PNG");
+				  Pattern FileInputTextBox= new Pattern(imagespath+ "file"); 
+				  Pattern open= new Pattern(imagespath+ "open");
 				  
 					
 					   Thread.sleep(5000);
 					   s.wait(FileInputTextBox,20);
 					 
-				       s.type(open,inputfilepath+"PHOTO");
+				       s.type(FileInputTextBox,inputfilepath+"utsav");
+				      
 				       s.click(open);
-				 
-			 
+				       
 		   
 	}
 

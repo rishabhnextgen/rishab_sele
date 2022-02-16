@@ -160,35 +160,6 @@
 	<classpathentry kind="lib" path="F:/apache poi/poi-bin-5.2.0/auxiliary/xmlgraphics-commons-2.6.jar"/>
 	<classpathentry kind="lib" path="F:/apache poi/poi-bin-5.2.0/auxiliary/xmlsec-2.3.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="F:/Sikuli/bridj-0.7.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/commons-cli-1.3.1.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/commons-collections-3.2.2.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/commons-configuration-1.10.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/commons-io-2.5.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/commons-lang-2.6.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/commons-net-3.4.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/dx-1.7.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/jcommon-1.0.23.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/jfreechart-1.0.19.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/jgoodies-common-1.8.1.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/jgoodies-forms-1.9.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/jintellitype-1.3.7.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/jxgrabkey-1.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/jython-standalone-2.7.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/qtaste-kernel-3.0.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/serializer-2.7.2.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/sikuli-3.0.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/sikulixapi-1.1.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/sikulixlibslux-1.1.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/sikulixlibswin-1.1.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/swing-layout-1.0.3.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/syntaxpane-1.1.4.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/xalan-2.7.2.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/xercesImpl-2.11.0.jar"/>
-	<classpathentry kind="lib" path="F:/Sikuli/xml-apis-1.3.04.jar"/>
 	<classpathentry kind="lib" path="C:/Users/risha/Downloads/sikulixide-2.0.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
