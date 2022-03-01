@@ -16,7 +16,7 @@ public class handling_Cookies {
 		   // add new cookies to the browser
 		  
 		   
-		     System.out.println(cookie.size());
+		    System.out.println(cookie.size());
 		    Cookie c= new Cookie("rishabh","1234567");
 		   driver.manage().addCookie(c);
 		    cookie=  driver.manage().getCookies();
@@ -24,7 +24,7 @@ public class handling_Cookies {
 		   {
 			   System.out.println(cokie.getName()+""+cokie.getValue());
 		   }
-driver.quit();
+                driver.quit();
 	}
 
 }

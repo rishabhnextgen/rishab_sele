@@ -14,8 +14,8 @@ public class Locators1 {
 		driver.manage().window().maximize();
 		WebElement searchbox=driver.findElement(By.id("twotabsearchtextbox"));
 		searchbox.sendKeys("Tshirt");
-		 driver.findElement(By.id("nav-search-submit-button")).click();
-	driver.findElement(By.linkText("Men's Regular Fit T-Shirt (Pack of 3)")).click();// using link text
+		driver.findElement(By.id("nav-search-submit-button")).click();
+	    driver.findElement(By.linkText("Men's Regular Fit T-Shirt (Pack of 3)")).click();// using link text
 	
 	// using partial link text 
 	

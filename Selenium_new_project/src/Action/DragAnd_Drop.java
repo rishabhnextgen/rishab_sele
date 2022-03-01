@@ -13,7 +13,6 @@ public class DragAnd_Drop {
 		   WebDriver driver= new ChromeDriver();
 		   driver.get("http://demo.guru99.com/test/drag_drop.html");
 		   driver.manage().window().maximize();
-		   
 		  WebElement Source= driver.findElement(By.xpath("//*[@id=\"fourth\"]/a"));  // x path of where we have to pick and put it into source varaible
 		  WebElement target= driver.findElement(By.xpath("//*[@id=\"amt7\"]/li"));    // x path of where we have to relese and put it into target varaible
 	      Actions act= new Actions(driver);

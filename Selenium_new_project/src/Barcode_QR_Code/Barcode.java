@@ -32,7 +32,7 @@ public class Barcode {
         URL url= new URL(barcode);
      BufferedImage bufferedimage=  ImageIO.read(url);
      
-     LuminanceSource luminancesource= new BufferedImageLuminanceSource(bufferedimage);
+    LuminanceSource luminancesource= new BufferedImageLuminanceSource(bufferedimage);
 	
 	BinaryBitmap binarybitmap= new BinaryBitmap(new HybridBinarizer(luminancesource));
 	Result result= new MultiFormatReader().decode(binarybitmap);

@@ -24,7 +24,7 @@ public class Capture_Image_Screenshot {
 		
 		
 		
-		 Screenshot logoscreenshot=new AShot().takeScreenshot(driver,logoimage);
+		Screenshot logoscreenshot=new AShot().takeScreenshot(driver,logoimage);
 		ImageIO.write (logoscreenshot.getImage(),"png",new File("F://Screenshots/orangehrm.png"));
 		File f= new File("F://Screenshots/orangehrm.png");
 		
