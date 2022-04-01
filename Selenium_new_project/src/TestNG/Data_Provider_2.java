@@ -17,9 +17,9 @@ public class Data_Provider_2
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys(username);
 		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys(password);
-driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
+        driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
 
-driver.close();
+        driver.close();
 }
 	
 	

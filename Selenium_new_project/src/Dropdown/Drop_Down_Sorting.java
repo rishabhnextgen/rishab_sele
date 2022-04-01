@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.Select;
 		ChromeDriver driver= new ChromeDriver();
 		driver.get(" https://testautomationpractice.blogspot.com/");	
 	    driver.manage().window().maximize();
-	    WebElement element=    driver.findElement(By.id("animals"));
+	    WebElement element= driver.findElement(By.id("animals"));
 	    Select se= new Select(element);
 	
 	     List originalList= new ArrayList();// All data store in Array list

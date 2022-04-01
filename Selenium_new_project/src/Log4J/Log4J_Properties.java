@@ -21,12 +21,12 @@ public class Log4J_Properties {
 			driver.get("https://www.facebook.com/");
 	        driver.manage().window().maximize();
 	        logger.info("username entered");
-	driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("8181816283");
-	logger.info("password entered");
-	driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("Hpmacbook");
-	logger.info("click on sign in");
-	driver.findElement(By.name("login")).click();
-		driver.switchTo().alert().accept();
+	        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("8181816283");
+	        logger.info("password entered");
+	        driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("Hpmacbook");
+	        logger.info("click on sign in");
+	         driver.findElement(By.name("login")).click();
+		     driver.switchTo().alert().accept();
 	}
 
 }

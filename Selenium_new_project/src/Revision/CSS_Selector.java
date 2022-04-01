@@ -12,10 +12,12 @@ public class CSS_Selector {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		// using tag & id  input#id
+		
 		//driver.findElement(By.cssSelector("#email")).sendKeys("8181816283");
 		 
 		
 		// tag & class  input.class
+		
 		//driver.findElement(By.cssSelector(".inputtext")).sendKeys("8181816283");
 
 		

@@ -35,6 +35,8 @@ public class Locator_Xpath_Axes {
 		System.out.println("number of child "+childs.size());
 		
 		// Descendent == Child+ grand Child  (select all the descendant (children, grandchildren)
+		
+		
 		List<WebElement> Descendant=driver.findElements(By.xpath("//a[normalize-space()='NDTV']/ancestor::tr/descendant::*"));
 		Descendant.size();
 		System.out.println("No of Descendant are"+Descendant.size());
@@ -62,8 +64,8 @@ public class Locator_Xpath_Axes {
        // Preceding (Select everything in the document before closing tag of the current node above)
 							  
 			    List<WebElement> Precedingsibling =driver.findElements(By.xpath("//a[normalize-space()='NDTV']/preceding-sibling::*"));
-							  Precedingsibling.size();
-							  System.out.println("No of Preceding-Sibling nodes  are"+Precedingsibling.size());
+			      Precedingsibling.size();
+			 System.out.println("No of Preceding-Sibling nodes  are"+Precedingsibling.size());
 							  
 							 
 		

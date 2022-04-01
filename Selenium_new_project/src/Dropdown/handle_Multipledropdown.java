@@ -15,9 +15,9 @@ public class handle_Multipledropdown {
         driver.get("http://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
 
-   WebElement yeardrp=    driver.findElement(By.id("yearbox")) ;
-   WebElement monthrdrp=    driver.findElement(By.xpath("//*[@id=\"basicBootstrapForm\"]/div[11]/div[2]/select")) ;    
-   WebElement datedrp=    driver.findElement(By.id("daybox")) ;
+           WebElement yeardrp=    driver.findElement(By.id("yearbox")) ;
+           WebElement monthrdrp=    driver.findElement(By.xpath("//*[@id=\"basicBootstrapForm\"]/div[11]/div[2]/select")) ;    
+           WebElement datedrp=    driver.findElement(By.id("daybox")) ;
 	
 	
 	
